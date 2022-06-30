@@ -9,4 +9,9 @@ import "../styles/index.css";
 import SecondsCounter from "./component/SecondsCountes.jsx";
 
 //render your react application
-ReactDOM.render(<SecondsCounter />, document.querySelector("#app"));
+const counter=0;
+setInterval(function() {
+    ReactDOM.render(
+        <SecondsCounter digito={counter} />, document.querySelector("#app")
+    );
+}, 1000);
