@@ -1,7 +1,15 @@
-// import the library
-import { library } from '@fortawesome/fontawesome-svg-core';
+import fontawesome from '@fortawesome/fontawesome';
 
-// import your icons
-import { faCalendar } from '@fortawesome/free-regular-svg-icons';
+import faclock from '@fortawesome/fontawesome-free-regular/faclock';
 
-library.add(faCalendar);
+fontawesome.config = {
+  autoReplaceSvg: 'nest'
+};
+
+fontawesome.library.add(faclock,fa);
+
+
+/**
+ * 5) Now, you can place the icon tag anywhere you want to icon to show, for example:
+ *    <i className="fas fa-check"></i>
+*/

@@ -2,13 +2,11 @@ import React from "react";
 
 import PropTypes from "prop-types";
 
-import "../../fontawesome";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function SecondsCounter(props)
 {
     return (<div className="contar">
-        <div className="calendario"></div>
+        <div className="calendario"><i class="fa-regular fa-clock"></i></div>
         <div className="six">{props.dig_seis}</div>
         <div className="five">{props.dig_cinco}</div>
         <div className="four">{props.dig_cuatro}</div>

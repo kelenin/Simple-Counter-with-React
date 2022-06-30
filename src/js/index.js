@@ -5,6 +5,9 @@ import ReactDOM from "react-dom";
 // include your styles into the webpack bundle
 import "../styles/index.css";
 
+import "../fontawesome.js";
+
+
 //import your own components
 import SecondsCounter from "./component/SecondsCountes.jsx";
 
