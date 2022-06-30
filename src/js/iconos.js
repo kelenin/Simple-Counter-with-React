@@ -1,9 +1,6 @@
-import fontawesome from '@fortawesome/fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
 
-import faclock from '@fortawesome/fontawesome-free-regular/faclock';
+import {faCalendar} from '@fortawesome/free-regular-svg-icons';
 
-fontawesome.config = {
-  autoReplaceSvg: 'nest'
-};
 
-fontawesome.library.add(faclock,fa);
+library.add(faCalendar);

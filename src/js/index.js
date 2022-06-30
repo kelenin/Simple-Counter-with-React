@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 // include your styles into the webpack bundle
 import "../styles/index.css";
 
-import "../fontawesome.js";
+import "./iconos.js";
 
 
 //import your own components
