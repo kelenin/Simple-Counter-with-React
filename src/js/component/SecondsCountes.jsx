@@ -6,12 +6,12 @@ function SecondsCounter(props)
 {
     return (<div className="contar">
         <div className="calendario"><i className="fa-regular fa-clock"></i></div>
-        <div className="six">{props.dig_seis}</div>
-        <div className="five">{props.dig_cinco}</div>
-        <div className="four">{props.dig_cuatro}</div>
-        <div className="three">{props.dig_tres}</div>
-        <div className="two">{props.dig_dos}</div>
-        <div className="one">{props.dig_uno}</div>
+        <div className="six">{props.dig_seis % 10}</div>
+        <div className="five">{props.dig_cinco % 10}</div>
+        <div className="four">{props.dig_cuatro % 10}</div>
+        <div className="three">{props.dig_tres % 10}</div>
+        <div className="two">{props.dig_dos % 10}</div>
+        <div className="one">{props.dig_uno % 10}</div>
 
     </div>);
 }
